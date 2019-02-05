@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe9e2971-d94e-43dc-ae75-8d569d29476c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/core/src/com/jarlescene2d/Stats.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scene2Dyolo.iws" beforeDir="false" afterPath="$PROJECT_DIR$/Scene2Dyolo.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/assets/rusty-robot/skin/rusty-robot-ui.json" beforeDir="false" afterPath="$PROJECT_DIR$/core/assets/rusty-robot/skin/rusty-robot-ui.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/jarlescene2d/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/jarlescene2d/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/jarlescene2d/Cards/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/jarlescene2d/Cards/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/jarlescene2d/Cards/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/jarlescene2d/Cards/Deck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/jarlescene2d/Laser.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/jarlescene2d/Pieces/Laser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/jarlescene2d/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/jarlescene2d/Pieces/Piece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/jarlescene2d/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/jarlescene2d/Pieces/Robot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/jarlescene2d/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/jarlescene2d/Pieces/Tile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/jarlescene2d/wescene2dingnowgang.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/jarlescene2d/wescene2dingnowgang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/assets/rolobot-alpha.png" beforeDir="false" afterPath="$PROJECT_DIR$/core/assets/bots/rolobot-alpha/rolobot-alpha.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/assets/sputnik.png" beforeDir="false" afterPath="$PROJECT_DIR$/core/assets/bots/sputnik/sputnik.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/jarlescene2d/Pieces/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/jarlescene2d/Pieces/Robot.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -71,11 +64,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/jarlescene2d/wescene2dingnowgang.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
+            <state relative-caret-position="265">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1846#1847#0" expanded="true" />
@@ -86,16 +79,30 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.9/1409aca6a4293a7ca8dbd60281c3211a195dd39a/gdx-1.9.9-sources.jar!/com/badlogic/gdx/scenes/scene2d/ui/Skin.java">
+        <entry file="file://$PROJECT_DIR$/core/assets/bots/sputnik/sputnik.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/assets/bots/sputnik/sputnik_side.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/src/com/jarlescene2d/Pieces/Robot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1124">
-              <caret line="190" column="22" selection-start-line="190" selection-start-column="22" selection-end-line="190" selection-end-column="22" />
+            <state relative-caret-position="289">
+              <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
               <folding>
-                <element signature="e#8106#8107#0" expanded="true" />
-                <element signature="e#8147#8148#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/assets/bots/rolobot-alpha/rolobot-alpha.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -119,18 +126,6 @@
                 <element signature="imports" expanded="true" />
                 <element signature="e#910#911#0" expanded="true" />
                 <element signature="e#956#957#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/jarlescene2d/Pieces/Tile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="97" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="97" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -210,11 +205,11 @@
         <option value="$PROJECT_DIR$/core/src/com/jarlescene2d/Tile.java" />
         <option value="$PROJECT_DIR$/core/src/com/jarlescene2d/Robot.java" />
         <option value="$PROJECT_DIR$/core/assets/rusty-robot/skin/rusty-robot-ui.json" />
-        <option value="$PROJECT_DIR$/core/src/com/jarlescene2d/Pieces/Robot.java" />
         <option value="$PROJECT_DIR$/core/src/com/jarlescene2d/Cards/Card.java" />
         <option value="$PROJECT_DIR$/core/src/com/jarlescene2d/Stats.java" />
         <option value="$PROJECT_DIR$/core/src/com/jarlescene2d/Cards/Deck.java" />
         <option value="$PROJECT_DIR$/core/src/com/jarlescene2d/wescene2dingnowgang.java" />
+        <option value="$PROJECT_DIR$/core/src/com/jarlescene2d/Pieces/Robot.java" />
       </list>
     </option>
   </component>
@@ -267,15 +262,23 @@
               <item name="Scene2Dyolo" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="rusty-robot" type="462c0819:PsiDirectoryNode" />
+              <item name="bots" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Scene2Dyolo" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scene2Dyolo" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="rusty-robot" type="462c0819:PsiDirectoryNode" />
-              <item name="skin" type="462c0819:PsiDirectoryNode" />
+              <item name="bots" type="462c0819:PsiDirectoryNode" />
+              <item name="rolobot-alpha" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Scene2Dyolo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scene2Dyolo" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="bots" type="462c0819:PsiDirectoryNode" />
+              <item name="sputnik" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Scene2Dyolo" type="b2602c69:ProjectViewProjectNode" />
@@ -289,6 +292,14 @@
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="jarlescene2d" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Scene2Dyolo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scene2Dyolo" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="jarlescene2d" type="462c0819:PsiDirectoryNode" />
+              <item name="Pieces" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Scene2Dyolo" type="b2602c69:ProjectViewProjectNode" />
@@ -325,7 +336,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549332908315" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549333875235" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/core/assets" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -333,6 +344,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\CODE FOLDER\Scene2Dyolo\core\assets\bots\rolobot-alpha" />
+      <recent name="C:\CODE FOLDER\Scene2Dyolo\core\assets\bots\sputnik" />
+      <recent name="C:\CODE FOLDER\Scene2Dyolo\core\assets\Bots" />
       <recent name="C:\CODE FOLDER\Scene2Dyolo\core\assets\board" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -459,7 +473,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44203684" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44203684" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -509,6 +523,18 @@
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/com/jarlescene2d/wescene2dingnowgang.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-tools/1.9.9/5367ef4eedf0e4f30a564fa3e90d0183150b9db5/gdx-tools-1.9.9-sources.jar!/com/badlogic/gdx/tools/hiero/Hiero.java">
@@ -695,16 +721,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/jarlescene2d/Pieces/Robot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/jarlescene2d/Pieces/Piece.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -805,14 +821,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/core/assets/bots/rolobot-alpha/rolobot-alpha.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/jarlescene2d/wescene2dingnowgang.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
+        <state relative-caret-position="265">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1846#1847#0" expanded="true" />
             <element signature="e#1868#1869#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/assets/bots/sputnik/sputnik.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/assets/bots/sputnik/sputnik_side.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/jarlescene2d/Pieces/Robot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

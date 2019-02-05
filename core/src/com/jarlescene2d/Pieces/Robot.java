@@ -6,16 +6,16 @@ import com.badlogic.gdx.graphics.g2d.Sprite;
 
 
 public class Robot extends Piece {
-        String path = "";
+        String path = "bots/";
 
         public Robot(int robotNumber){
 
                 switch (robotNumber){
                         case 0:
-                                path = "rolobot-alpha.png";
+                                path += "rolobot-alpha/rolobot-alpha.png";
                                 break;
                         case 1:
-                                path = "sputnik.png";
+                                path += "sputnik/sputnik.png";
                                 break;
                 }
 
