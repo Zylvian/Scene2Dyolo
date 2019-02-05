@@ -27,8 +27,8 @@ public class Tile extends Stack {
         //this.add(new Robot());
     }
 
-    public void addPiece() {
-        this.add(new Robot());
-        this.add(new Laser());
+    public void addPiece(Piece piece) {
+        // REMOVE
+        this.add(piece);
     }
 }

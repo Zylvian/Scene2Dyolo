@@ -34,15 +34,14 @@ public class Laser extends Piece {
             }
         }
 
-
-        //setBounds(sprite.getX(), sprite.getY(), sprite.getWidth(), sprite.getHeight());
         animationTime = 0f;
     }
 
     @Override
     public void draw(Batch batch, float parentAlpha) {
-        TextureRegion currentFrame = laserAnimation.getKeyFrame(animationTime);
+        TextureRegion currentFrame = laserAnimation.getKeyFrame(animationTime, true);
         batch.draw(currentFrame, getX(),getY(), getWidth(), getHeight());
+
     }
 
     @Override

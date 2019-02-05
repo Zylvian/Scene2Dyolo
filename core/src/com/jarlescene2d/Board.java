@@ -26,14 +26,13 @@ public class Board extends Table {
             }
         }
 
-        this.addPiece(0,0);
         updateBoard();
 
 
     }
 
-    public void addPiece(int x, int y){
-        this.boardMap[y][x].addPiece();
+    public void addPiece(int x, int y, Piece piece){
+        this.boardMap[y][x].addPiece(piece);
     }
 
     // Updates the actual table based on boardMap.

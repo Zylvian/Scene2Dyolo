@@ -39,10 +39,12 @@ public class wescene2dingnowgang extends ApplicationAdapter {
 		Board board = new Board(90, 10, 10);
 		board.setDebug(true);
 		board.padTop(30);
-		//board.top().left();
-		//board.setFillParent(true);
-		//Tile tile = new Tile();
 
+		// Add some shit
+		board.addPiece(3,3,new Robot(1));
+		board.addPiece(3,2, new Robot(0));
+		board.addPiece(2,3,new Laser());
+		board.addPiece(4,3,new Laser());
 
 		// Create cards
 		Deck deck = new Deck(skin);
@@ -67,9 +69,15 @@ public class wescene2dingnowgang extends ApplicationAdapter {
 	public void render () {
 		Gdx.gl.glClearColor(0.57f, 0.77f, 0.85f, 1);
 		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
-		stage.act(Gdx.graphics.getDeltaTime());
-		stage.draw();
 
+		stage.draw();
+		stage.act(Gdx.graphics.getDeltaTime());
+
+	}
+
+	@Override
+	public void dispose() {
+		stage.dispose();
 	}
 
 	@Override
