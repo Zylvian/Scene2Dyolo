@@ -1,13 +1,11 @@
-package com.jarlescene2d;
+package com.jarlescene2d.Pieces;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
-import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.graphics.g2d.Sprite;
-import com.badlogic.gdx.scenes.scene2d.Actor;
 
 
-class Robot extends Piece {
+public class Robot extends Piece {
         String path = "";
 
         public Robot(int robotNumber){

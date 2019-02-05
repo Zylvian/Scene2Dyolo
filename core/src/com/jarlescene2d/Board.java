@@ -1,6 +1,8 @@
 package com.jarlescene2d;
 
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
+import com.jarlescene2d.Pieces.Piece;
+import com.jarlescene2d.Pieces.Tile;
 
 public class Board extends Table {
 

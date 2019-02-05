@@ -8,8 +8,9 @@ import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.utils.viewport.ExtendViewport;
-import com.badlogic.gdx.utils.viewport.ScreenViewport;
 import com.jarlescene2d.Cards.Deck;
+import com.jarlescene2d.Pieces.Laser;
+import com.jarlescene2d.Pieces.Robot;
 
 public class wescene2dingnowgang extends ApplicationAdapter {
 	private Stage stage;
@@ -27,6 +28,7 @@ public class wescene2dingnowgang extends ApplicationAdapter {
 
 		// Main skin
 		skin = new Skin(Gdx.files.internal("rusty-robot/skin/rusty-robot-ui.json"));
+		skin.getFont("font").getData().setScale(1.6f,1.6f);
 
 		// Main table
 		Table game = new Table();
@@ -37,11 +39,11 @@ public class wescene2dingnowgang extends ApplicationAdapter {
 
 		// Create board
 		Board board = new Board(90, 10, 10);
-		board.setDebug(true);
+		//board.setDebug(true);
 		board.padTop(30);
 
 		// Add some shit
-		board.addPiece(3,3,new Robot(1));
+		board.addPiece(3,3, new Robot(1));
 		board.addPiece(3,2, new Robot(0));
 		board.addPiece(2,3,new Laser());
 		board.addPiece(4,3,new Laser());
@@ -49,9 +51,14 @@ public class wescene2dingnowgang extends ApplicationAdapter {
 		// Create cards
 		Deck deck = new Deck(skin);
 
+		// Create stat thingy
+		Stats stats = new Stats(skin);
+
+		// Add everything to the main table.
 		game.add(board).expandX().top().center();
+		game.add(stats).expandX().top().left().pad(40);
 		game.row();
-		game.add(deck).bottom().center();
+		game.add(deck).bottom().padBottom(30);
 
 		stage.addActor(game);
 

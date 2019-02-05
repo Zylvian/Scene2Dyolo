@@ -1,4 +1,4 @@
-package com.jarlescene2d;
+package com.jarlescene2d.Pieces;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
@@ -6,8 +6,6 @@ import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.ui.Stack;
-
-import java.util.LinkedList;
 
 public class Tile extends Stack {
 

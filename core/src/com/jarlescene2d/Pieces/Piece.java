@@ -1,4 +1,4 @@
-package com.jarlescene2d;
+package com.jarlescene2d.Pieces;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
