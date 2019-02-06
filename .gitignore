@@ -28,3 +28,4 @@ hs_err_pid*
 *.iws
 .gradle/
 /out/
+*.DS_Store
